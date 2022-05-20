@@ -105,5 +105,105 @@ body{
     opacity: 0.8;
     transform: matrix(1, 0, 0, -1, 0, 0);
     width: 84.4%;
-    height:3.33%;
+    height: 3.33vh;
+}
+
+.about_wezip{
+    position:relative;
+    height: 130.3vh;
+    background: #996DD0;
+    opacity: 0.8;
+}
+
+.about_wezip_title{
+    position:absolute;
+    margin-top: 5.56vh;
+    margin-left: 7.78%;
+    height: 23.3vh;
+    width: 84.4%;
+    background: #D9D9D9;
+    opacity: 0.8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.about_wezip_content_1, .about_wezip_content_2, .about_wezip_content_3{
+    position: absolute;
+    width: 84.4%;
+    height: 29.1vh;
+    margin-left: 7.78%;
+    margin-top: 31.64vh;
+    background: #F7A5A5;
+    opacity: 0.8;
+}
+
+.about_wezip_content_2{
+    margin-top: 63.6vh;
+}
+
+.about_wezip_content_3{
+    margin-top: 95.56vh;
+}
+
+.about_wezip_content_1 > .icon, .about_wezip_content_2 > .icon, .about_wezip_content_3 > .icon{
+    position: absolute;
+    width: 15.56%;
+    height: 7.78vh;
+    margin-left: 0;
+    margin-top: 0;
+    background: #C4C4C4;
+}
+
+.sales_list_1, .sales_list_2, .sales_list_3, .sales_list_4{
+    position:relative;
+    height:108.89vh;
+    background: #D0A86D;
+    opacity: 0.8;
+}
+
+.saleslist ,.text{
+    width:84.4%;
+    height:23.3vh;
+    position: absolute;
+    margin-top: 5.56vh;
+    margin-left: 7.78%; 
+    background: #D9D9D9;
+    opacity: 0.8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.photo{
+    width:84.4%;
+    height:42.22vh;
+    position: absolute;
+    margin-top: 28.89vh;
+    margin-left: 7.78%; 
+    background: #481111;
+    opacity: 0.8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.text{
+    margin-top: 71.1vh;
+}
+
+.sales_list_1 > .button, .sales_list_2 > .button, .sales_list_3 > .button, .sales_list_4 > .button{
+    width:84.4%;
+    height:3.33vh;
+    position: absolute;
+    margin-top: 94.44vh;
+    margin-left: 7.78%; 
+    background: #F1AFAF;
+    opacity: 0.8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.pagination{
+    width:84.4%;
+    height:5.56vh;
+    position: absolute;
+    margin-top: 97.78vh;
+    margin-left: 7.78%; 
+    background: #481111;
+    opacity: 0.8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
