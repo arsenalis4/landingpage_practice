@@ -23,3 +23,8 @@ function fade_slider(a) {
 function display_none(a){
     $(a).css('display', 'none')
 }
+
+$(document).on('click', '.scroll_up' ,function(e) {
+    window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
+  })
+  
